@@ -1,0 +1,6 @@
+n1=float(input("Enter number of adults"))
+n2=float(input("Enter number of children"))
+res=(n1*37550)+(n2*(37550/3))
+tot=res+(res*7/100)
+final=tot-(tot*10/100)
+print(final)
